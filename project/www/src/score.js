@@ -39,6 +39,7 @@ class Score {
     }
     static calculateScore (rensa, piece, color) {
         rensa = Math.min(rensa, Score.rensaBonus.length - 1);
+        console.log("連鎖数:"+rensa);
         piece = Math.min(piece, Score.pieceBonus.length - 1);
         color = Math.min(color, Score.colorBonus.length - 1);
         let scale = Score.rensaBonus[rensa] + Score.pieceBonus[piece] + Score.colorBonus[color];
