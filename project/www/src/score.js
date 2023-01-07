@@ -1,3 +1,4 @@
+// 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
 class Score {
     // static fontTemplateList = [];
     // static fontLength;
